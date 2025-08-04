@@ -7,8 +7,16 @@ import About from "./pages/About";
 import TaskManager from "./pages/Task Manager";
 import Page404 from "./pages/Page404";
 import Navbar from "./components/Navbar";
+import userflow from 'userflow.js'
 
 const App = () => {
+
+  userflow.init('ct_us1_q7po3wsgrvckxa2goay3whwj2a')
+userflow.identify('Test_User_id', {
+  name: 'Test_User',
+  email: 'test@userflow.com',
+  signed_up_at: '2025-08-04T14:53:00Z'
+})
 
   return (
     <>
