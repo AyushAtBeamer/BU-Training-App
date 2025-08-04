@@ -7,7 +7,7 @@ import About from "./pages/About";
 import TaskManager from "./pages/Task Manager";
 import Page404 from "./pages/Page404";
 import Navbar from "./components/Navbar";
-import userflow from 'userflow.js'
+import userflow from 'userflow.js';
 
 const App = () => {
 
