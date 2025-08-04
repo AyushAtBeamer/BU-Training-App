@@ -12,7 +12,7 @@ import userflow from 'userflow.js'
 const App = () => {
 
   userflow.init('ct_us1_q7po3wsgrvckxa2goay3whwj2a')
-  userflow.identifyAnonymous(
+  userflow.identifyAnonymous({
     website_lead: true
   })
 
